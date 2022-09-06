@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.header__list {
+    display: flex;
+    gap: 20px;
+}
+
+.header__link {
+    font-weight: 700;
+    color: #214E41;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: .2s ease;
+}
+
+.header__link:hover {
+    background: rgb(238, 238, 238);
+}
+
+.btn {
+    background: #43806C;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    transition: .2s ease;
+}
+
+.header__link.btn{
+    margin-left: 70px;
+}
+
+.btn:hover {
+    background: #214E41;
+}
+
+.banner {
+    height: 720px;
+    background: url('img/banner.jpg') no-repeat;
+    background-position: center;
+    color: #214E41;
+    font-weight: 700;
+}
+
+.banner__inner {
+    padding-top: 160px;
+}
+
+.banner__title {
+    max-width: 516px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner__subtitle {
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.banner__form {
+    display: flex;
+}
+
+.banner__input {
+    height: 60px;
+    width: 280px;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.banner__input::placeholder {
+    color: #222222;
+}
+
+.banner__btn {
+    height: 60px;
+    width: 120px;
+    border: none;
+    background-color: #43806C;
+    color: #FFFFFF;
+    border-radius: 0px 6px 6px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    transition: .2s ease;
+}
+
+.banner__btn:hover {
+    background: #214E41;
+    cursor: pointer;
+}
+
+.benefits {
+    color: #214E41;
+
+    margin-top: -85px;
+}
+
+.benefits__inner {
+    display: flex;
+    padding: 50px;
+    box-shadow: 1px 1px 4px rgba(232, 230, 230, 0.6);
+    border-radius: 6px;
+    background: #FFFFFF;
+    gap: 50px;
+}
+
+.benefits__item {
+    display: flex;
+    align-items: center;
+    transition: .2s ease;
+}
+
+.benefits__item:hover{
+    scale: 1.05;
+}
+
+.benefits__icon {
+    margin-right: 10px;
+    height: 45px;
+}
+
+.benefits__title {
+    margin-bottom: 8px;
+}
